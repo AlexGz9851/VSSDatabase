@@ -14,8 +14,8 @@ public class DatabaseConnection {
 	private String usuario;
 	private Statement stmt;
 	private ResultSet rs;
-	private final String user = "a00820225";
-	private final String cont= "tec0225";
+	private final String user = "XXXXXXX";
+	private final String cont= "XXXXXXX";
 	public DatabaseConnection( boolean modoPrueba) {
 		this.modoPrueba=modoPrueba;
 		if(!modoPrueba) {
